@@ -1,0 +1,116 @@
+.section1 {
+    background-color: #2ecc71;
+    height: 98vh;
+    overflow: hidden;
+}
+
+.left-iphone {
+    margin-top: 35vh;
+    margin-left: 15vw;
+}
+
+.app-title {
+    font-family: Helvetica ,sans-serif;
+    font-size: 4.17em;
+    font-weight: 100;
+    color: #fff;
+}
+
+.app-subtitle {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.78em;
+    font-weight: 100;
+    color: #fff;
+}
+
+.appstore-badge {
+    margin-top: 75px;
+    font-family: Helvetica, sans-serif;
+    height: 105px;
+    width: 240px;
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
+.appstore-badge h3 {
+    font-size: .67em;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+.appstore-badge h2 {
+    font-size: 1.3em;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.iphone {
+    position: relative;
+    padding: 95px 0px 0px 4px;
+    margin-top: 15vh;
+    margin-left: 0;
+    width: 320px;
+    height: 672px;
+    background: url('../images/iphone-front.png') no-repeat;
+    background-size: 100%;
+    z-index: 0;
+}
+
+.iphone-screen {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 278px;
+    height: 670px;
+    background: url('../images/growme-screenshot.png') no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.section2 {
+    overflow: hidden;
+}
+
+.full-width {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content {
+    background-color: #fff;
+    height: 98vh;
+}
+
+.section3 {
+    height: 10vh;
+}
+
+.footer {
+    background-color: #2ecc71;
+    height: 100%;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding-top: 4vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer li {
+    display: inline;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.22em;
+    font-weight: 100;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+.footer li a {
+    color: #fff;
+    font-weight: 400;
+}
