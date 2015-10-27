@@ -79,11 +79,99 @@
 
 .content {
     background-color: #fff;
-    height: 98vh;
+    font-family: Helvetica, sans-serif;
+    color: #000;
+}
+
+.content-strip {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+}
+
+.content-strip h3 {
+    padding-top: 3vh;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+.content-box {
+    width: 40vw;
+    height: 45vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content-box-title {
+    color: #2ecc71;
+    font-weight: 300;
+    font-size: 2.2em;
+    margin-bottom: 2px;
+}
+
+.content-box-description {
+    font-weight: 300;
+    font-size: 1.3em;
+    margin-top: 5px;
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+
+.row-banner {
+    margin-top: 4vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.top {
+    margin-top: 3vh;
+}
+
+.bottom {
+    margin-bottom: 10vh;
+}
+
+.left {
+    margin-left: 10vw;
+}
+
+.right {
+    margin-right: 10vw;
+}
+
+.content-box-img {
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+}
+
+#box-1 {
+    background: url('../images/notification-pic.png') no-repeat;
+    background-size: 100%;
+}
+
+#box-2 {
+    background: url('../images/choices-pic.png') no-repeat;
+    background-size: 100%;
+}
+
+#box-3 {
+    background: url('../images/choices-pic.png') no-repeat;
+    background-size: 100%;
+}
+
+#box-4 {
+    margin-top: 60px;
+    height: 100px;
+    background: url('../images/schedule-pic.png') no-repeat;
+    background-size: 100%;
 }
 
 .section3 {
-    height: 10vh;
+    height: 15vh;
+    overflow: hidden;
 }
 
 .footer {
